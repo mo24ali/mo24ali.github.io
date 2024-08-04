@@ -137,7 +137,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
             output("<h3>404...</h3>");
             setTimeout(function() {
                 output("<h3>So you're curious about it hein!.</h3>");
-            }, 1500); // 2000 milliseconds = 2 seconds delay
+            }, 500); // 2000 milliseconds = 2 seconds delay
             break;
         
         default:
