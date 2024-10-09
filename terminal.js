@@ -80,11 +80,11 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
   });
 
 
-  /* document.addEventListener('click', function() {
+  document.addEventListener('click', function() {
     var audio = document.getElementById('background-audio');
     audio.muted = false;
     audio.play();
-  });*/
+  });
   //////////////////////////////////////////
   //
   function processNewCommand_(e) {
