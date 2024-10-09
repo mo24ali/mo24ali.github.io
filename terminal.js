@@ -79,6 +79,12 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
     audio.play();
   });
 
+
+   document.addEventListener('click', function() {
+    var audio = document.getElementById('background-audio');
+    audio.muted = false;
+    audio.play();
+  });
   //////////////////////////////////////////
   //
   function processNewCommand_(e) {
