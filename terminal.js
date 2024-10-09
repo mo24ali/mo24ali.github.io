@@ -71,7 +71,15 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
       }
     }
   }
+  //////////////////////////////////////////
+  
+  window.addEventListener('load', function() {
+    var audio = document.getElementById('background-audio');
+    audio.muted = false; // Unmute after load
+    audio.play();
+  });
 
+  //////////////////////////////////////////
   //
   function processNewCommand_(e) {
 
