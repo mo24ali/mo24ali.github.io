@@ -150,7 +150,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           case 'love':
             output("<h3>404...</h3>");
             setTimeout(function() {
-                output("<h3>So you're curious about it hein!.</h3>");
+                output("<h3>So you're curious about it hmmm!.</h3>");
             }, 500); // 2000 milliseconds = 2 seconds delay
             break;
         
