@@ -131,7 +131,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output(result);
           break;
         case 'interests': 
-        var result = "<h3>Interests</h3><p>Gym, Travelling, Coding, Problem Solving..</p>";
+        var result = "<h3>Interests</h3><p>Balling, Travelling, Coding, Problem Solving..</p>";
 
           output(result);
           break;
