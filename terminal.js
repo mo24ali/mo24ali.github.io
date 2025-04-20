@@ -126,7 +126,7 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           output(result);
           break;
         case 'education':
-          var result = "<h3>Education</h3><p>Computer science Student at Faculté polydisciplinaire de Safi, completed ✅, So what's next?.</p>";
+          var result = "<h3>Education</h3><p>Bachelor's degree in Computer science at Faculté polydisciplinaire de Safi, completed ✅, So what's next?.</p>";
 
           output(result);
           break;
